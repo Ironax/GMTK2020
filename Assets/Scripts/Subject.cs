@@ -14,17 +14,25 @@ public enum Phobia
 	Coulrophobia,
 }
 
+public enum Reaction
+{
+	Jump,
+	Freeze,
+	Run,
+	Turn,
+}
+
 public class Subject : MonoBehaviour
 {
 	[Serializable]
-	struct PhobiaEvent
+	struct PhobiaReaction
 	{
 		public Phobia Phobia;
-		public UnityEvent Event;
+		public Reaction Reaction;
 	}
 
 	[SerializeField]
-	private List<PhobiaEvent> phobias = default;
+	private List<PhobiaReaction> phobias = default;
 
 	public enum State
 	{
@@ -44,6 +52,7 @@ public class Subject : MonoBehaviour
 	private int direction = 1;
 	[SerializeField]
 	private State state = State.Walk;
+	[SerializeField] private bool isGrounded = false;
 
 	private Rigidbody2D rb = null;
 
@@ -68,40 +77,83 @@ public class Subject : MonoBehaviour
 		}
     }
 
-	public void Turn()
+	private void OnCollisionEnter2D(Collision2D other)
+	{
+		isGrounded = true;
+	}
+
+	private void OnCollisionExit2D(Collision2D other)
+	{
+		isGrounded = false;
+	}
+
+	public bool React(Reaction reaction)
+	{
+		switch (reaction)
+		{
+			case Reaction.Turn:
+				return Turn();
+			case Reaction.Jump:
+				return Jump();
+			case Reaction.Freeze:
+				return Freeze();
+			case Reaction.Run:
+				return Run();
+			default:
+				return Walk();
+		}
+	}
+
+	public bool Turn()
 	{
 		direction = -direction;
 		Vector3 newLocalScale = transform.localScale;
 		newLocalScale.x = Mathf.Abs(newLocalScale.x) * direction;
 		transform.localScale = newLocalScale;
+
+		return true;
 	}
 
-	public void Jump()
+	public bool Jump()
 	{
-		rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+		if (isGrounded)
+		{
+			rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+			isGrounded = false;
+
+			return true;
+		}
+		return false;
 	}
 
-	public void Run()
+	public bool Run()
 	{
 		state = State.Run;
+		return true;
 	}
 
-	public void Freeze()
+	public bool Freeze()
 	{
 		state = State.Freeze;
+		return true;
 	}
 
-	public void Walk()
+	public bool Walk()
 	{
 		state = State.Walk;
+
+		return true;
 	}
 
-	public void TriggerPhobia(Phobia in_phobia)
+	public bool TriggerPhobia(Phobia in_phobia)
 	{
 		foreach (var phobia in phobias)
 		{
 			if(phobia.Phobia == in_phobia)
-				phobia.Event?.Invoke();
+				if (!React(phobia.Reaction))
+						return false;
 		}
+
+		return true;
 	}
 }

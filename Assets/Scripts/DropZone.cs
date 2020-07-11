@@ -19,7 +19,6 @@ public class DropZone : MonoBehaviour, IDropHandler
 
 	public void OnDrop(PointerEventData eventData)
 	{
-		Debug.Log("ondrop");
 		if (eventData.pointerDrag != null)
 			eventData.pointerDrag.GetComponent<PhobiaDrag>()?.InstaciateObject();
 	}
