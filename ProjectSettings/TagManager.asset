@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2685433037
+    locked: 0
+  - name: Ground&Walls
+    uniqueID: 3933853129
+    locked: 0
+  - name: Characters
+    uniqueID: 2728203579
+    locked: 0
+  - name: Phobias
+    uniqueID: 1790268621
+    locked: 0
+  - name: UI
+    uniqueID: 3738799303
+    locked: 0
