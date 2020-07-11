@@ -46,6 +46,8 @@ public class Subject : MonoBehaviour
 	[SerializeField]
 	private float runSpeed = 2;
 
+	[SerializeField] private float runTime = 2;
+	[SerializeField] private float freezeTime = 1;
 	[SerializeField] private float jumpForce = 1;
 
 	[SerializeField]
@@ -55,6 +57,7 @@ public class Subject : MonoBehaviour
 	[SerializeField] private bool isGrounded = false;
 
 	private Rigidbody2D rb = null;
+	private float currentReactionTimer = 0f;
 
     void Start()
 	{
@@ -62,7 +65,9 @@ public class Subject : MonoBehaviour
 	}
 
     void FixedUpdate()
-    {
+	{
+		currentReactionTimer += Time.deltaTime;
+
 		switch (state)
 		{
 			case State.Walk:
@@ -70,9 +75,13 @@ public class Subject : MonoBehaviour
 				break;
 			case State.Run:
 				rb.velocity = new Vector2(runSpeed * direction, rb.velocity.y);
+				if (currentReactionTimer >= runTime)
+					state = State.Walk;
 				break;
 			case State.Freeze:
 				rb.velocity = new Vector2(0, rb.velocity.y);
+				if (currentReactionTimer >= freezeTime)
+					state = State.Walk;
 				break;
 		}
     }
@@ -129,12 +138,14 @@ public class Subject : MonoBehaviour
 	public bool Run()
 	{
 		state = State.Run;
+		currentReactionTimer = 0f;
 		return true;
 	}
 
 	public bool Freeze()
 	{
 		state = State.Freeze;
+		currentReactionTimer = 0f;
 		return true;
 	}
 
