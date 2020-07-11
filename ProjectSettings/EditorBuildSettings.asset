@@ -9,21 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 5dbf53424f215bc42a4eff355478e9e0
   - enabled: 1
-    path: Assets/Scenes/Lvl 1.unity
-    guid: 73829dd8960de2b498bbd9a1dc4b1c73
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Test Alice.unity
-    guid: c6cb82c46db0d6a439b75088f0fa88e6
-  - enabled: 1
-    path: Assets/Scenes/Tuto.unity
-    guid: 8d3268b835c42984ab7c732760eddfba
+    path: Assets/Scenes/Credits.unity
+    guid: 342a5f29a6c331d418bb66229a4e6e49
   - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: ba98db359ce61d64b8cde11e62e00295
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 342a5f29a6c331d418bb66229a4e6e49
+    path: Assets/Scenes/Tuto.unity
+    guid: 8d3268b835c42984ab7c732760eddfba
+  - enabled: 1
+    path: Assets/Scenes/Lvl 1.unity
+    guid: 1e83364746a8cd24788e9f480ac652a7
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Test Alice.unity
+    guid: c6cb82c46db0d6a439b75088f0fa88e6
   m_configObjects: {}

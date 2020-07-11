@@ -297,14 +297,19 @@ MonoBehaviour:
     Reaction: 1
   - Phobia: 2
     Reaction: 3
-  speed: 2
+  speed: 2.1
   runSpeed: 4
   runTime: 2
-  freezeTime: 1
-  jumpForce: 10
+  freezeTime: 2
+  jumpForce: 8
   direction: 1
   state: 0
   isGrounded: 0
+  jumpSfx: {fileID: 8300000, guid: cfc651af5af796a4c988f4806696a25b, type: 3}
+  runSfx: {fileID: 8300000, guid: 7fb2a56e66b69f341b87822884b1d0d4, type: 3}
+  walkSfx: {fileID: 8300000, guid: 3f6721e10da956e4cb28b13c53041182, type: 3}
+  freezeSfx: {fileID: 8300000, guid: 8c5ebc90bc99c554e9e425e8103d9497, type: 3}
+  turnSfx: {fileID: 8300000, guid: d5042d240abb884439e228f90cecc5b9, type: 3}
 --- !u!95 &4568174780786973357
 Animator:
   serializedVersion: 3

@@ -12,6 +12,11 @@ public enum Phobia
 	Arachnophobia,
 	Claustrophobia,
 	Coulrophobia,
+	Ophidiophobia,
+	Achluophobia,
+	Phonophobia,
+	Acrophobia,
+
 }
 
 public enum Reaction
@@ -58,12 +63,20 @@ public class Subject : MonoBehaviour
 	private State state = State.Walk;
 	[SerializeField] private bool isGrounded = false;
 
+	[SerializeField] AudioClip jumpSfx;
+	[SerializeField] AudioClip runSfx;
+	[SerializeField] AudioClip walkSfx;
+	[SerializeField] AudioClip freezeSfx;
+	[SerializeField] AudioClip turnSfx;
+	AudioSource subjectAudio;
+
 	private Rigidbody2D rb = null;
 	private float currentReactionTimer = 0f;
 
     void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
+		subjectAudio = gameObject.GetComponent<AudioSource>();
 	}
 
     void FixedUpdate()
@@ -74,14 +87,23 @@ public class Subject : MonoBehaviour
 		{
 			case State.Walk:
 				rb.velocity =  new Vector2(speed * direction, rb.velocity.y);
+				if (!subjectAudio.isPlaying && isGrounded)
+				{
+					subjectAudio.clip = walkSfx;
+					subjectAudio.loop = true;
+					subjectAudio.Play();
+				}
+
 				break;
 			case State.Run:
 				rb.velocity = new Vector2(runSpeed * direction, rb.velocity.y);
+
 				if (currentReactionTimer >= runTime)
 					state = State.Walk;
 				break;
 			case State.Freeze:
 				rb.velocity = new Vector2(0, rb.velocity.y);
+
 				if (currentReactionTimer >= freezeTime)
 					state = State.Walk;
 				break;
@@ -112,6 +134,7 @@ public class Subject : MonoBehaviour
 				return Run();
 			default:
 				return Walk();
+				
 		}
 	}
 
@@ -130,6 +153,10 @@ public class Subject : MonoBehaviour
 		if (isGrounded)
 		{
 			rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+			subjectAudio.clip = jumpSfx;
+			subjectAudio.loop = false;
+			subjectAudio.Play();
+
 			isGrounded = false;
 
 			return true;
@@ -140,6 +167,9 @@ public class Subject : MonoBehaviour
 	public bool Run()
 	{
 		state = State.Run;
+		subjectAudio.clip = runSfx;
+		subjectAudio.loop = true;
+		subjectAudio.Play();
 		currentReactionTimer = 0f;
 		return true;
 	}
@@ -147,6 +177,9 @@ public class Subject : MonoBehaviour
 	public bool Freeze()
 	{
 		state = State.Freeze;
+		subjectAudio.clip = freezeSfx;
+		subjectAudio.loop = false;
+		subjectAudio.Play();
 		currentReactionTimer = 0f;
 		return true;
 	}
@@ -154,7 +187,9 @@ public class Subject : MonoBehaviour
 	public bool Walk()
 	{
 		state = State.Walk;
-
+		subjectAudio.clip = walkSfx;
+		subjectAudio.loop = true;
+		subjectAudio.Play();
 		return true;
 	}
 
