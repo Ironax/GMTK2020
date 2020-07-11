@@ -31,6 +31,8 @@ public class Subject : MonoBehaviour
 		public Reaction Reaction;
 	}
 
+	[SerializeField] private EmotionRenderer emotionRenderer;
+
 	[SerializeField]
 	private List<PhobiaReaction> phobias = default;
 
@@ -160,11 +162,16 @@ public class Subject : MonoBehaviour
 	{
 		foreach (var phobia in phobias)
 		{
-			if(phobia.Phobia == in_phobia)
+			if (phobia.Phobia == in_phobia)
+			{
 				if (!React(phobia.Reaction))
-						return false;
+					return false;
+				else
+				{
+					emotionRenderer.DrawEmotion(phobia.Reaction);
+				}
+			}
 		}
-
 		return true;
 	}
 }
