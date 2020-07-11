@@ -20,6 +20,13 @@ public class PhobiaDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
         
     }
 
+	public void InstaciateObject()
+	{
+		Vector3 mousePosWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		mousePosWorld.z = 0;
+		Instantiate(phobiaPrefab, mousePosWorld, Quaternion.identity);
+	}
+
 	public void OnPointerDown(PointerEventData eventData)
 	{ }
 
@@ -30,9 +37,6 @@ public class PhobiaDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
 
 	public void OnEndDrag(PointerEventData eventData)
 	{
-		Vector3 mousePosWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		mousePosWorld.z = 0;
-		Instantiate(phobiaPrefab, mousePosWorld, Quaternion.identity);
 		rectTransform.anchoredPosition = startPos;
 	}
 

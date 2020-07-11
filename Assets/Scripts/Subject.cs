@@ -40,8 +40,11 @@ public class Subject : MonoBehaviour
 
 	[SerializeField] private float jumpForce = 1;
 
+	[SerializeField]
 	private int direction = 1;
+	[SerializeField]
 	private State state = State.Walk;
+
 	private Rigidbody2D rb = null;
 
     void Start()
@@ -62,14 +65,15 @@ public class Subject : MonoBehaviour
 			case State.Freeze:
 				rb.velocity = new Vector2(0, rb.velocity.y);
 				break;
-			default:
-				break;
 		}
     }
 
 	public void Turn()
 	{
 		direction = -direction;
+		Vector3 newLocalScale = transform.localScale;
+		newLocalScale.x = Mathf.Abs(newLocalScale.x) * direction;
+		transform.localScale = newLocalScale;
 	}
 
 	public void Jump()
