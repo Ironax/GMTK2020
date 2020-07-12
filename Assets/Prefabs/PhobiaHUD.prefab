@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2954718073311147299}
   - component: {fileID: 6609963828711866439}
   m_Layer: 5
-  m_Name: LightningHUD
+  m_Name: Lightning HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,7 +127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30, y: -30}
+  m_AnchoredPosition: {x: -139, y: -395.4}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6716032543445677480
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 4927842568940700683}
   - component: {fileID: 340738361753784280}
   m_Layer: 5
-  m_Name: ShadowHUD
+  m_Name: Shadow HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 8074177775707111491}
   - component: {fileID: 4827660838895295324}
   m_Layer: 5
-  m_Name: SnakeHUD
+  m_Name: Snake HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -521,7 +521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30, y: -87.27}
+  m_AnchoredPosition: {x: -54.3, y: -395.4}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1919108139428821909
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 5443901333749131928}
   - component: {fileID: 5443901333749131926}
   m_Layer: 5
-  m_Name: ClownHUD
+  m_Name: Clown HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 5443901335350781398}
   - component: {fileID: 5443901335350781396}
   m_Layer: 5
-  m_Name: SpiderHUD
+  m_Name: Spider HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
