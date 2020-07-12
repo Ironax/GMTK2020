@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Test Alice.unity
     guid: c6cb82c46db0d6a439b75088f0fa88e6
+  - enabled: 1
+    path: Assets/Scenes/Lvl 3.unity
+    guid: bff1cdd59bf4a9b48a28755726bd1f95
   m_configObjects: {}

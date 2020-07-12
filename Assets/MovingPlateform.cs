@@ -36,6 +36,7 @@ public class MovingPlateform : MonoBehaviour
 					direction   = -direction;
 					rb.position = endPos;
 					timerEdge   = 0f;
+					return;
 				}
 
 				diff        /= distance;
@@ -50,7 +51,7 @@ public class MovingPlateform : MonoBehaviour
 					direction   = -direction;
 					rb.position = startPos;
 					timerEdge   = 0f;
-
+					return;
 				}
 				diff        /= distance;
 				rb.position += speed * Time.deltaTime * diff;
