@@ -89,7 +89,6 @@ public class Subject : MonoBehaviour
 			}
 		}
 
-
 		rb = GetComponent<Rigidbody2D>();
 		subjectAudio = gameObject.GetComponent<AudioSource>();
 	}

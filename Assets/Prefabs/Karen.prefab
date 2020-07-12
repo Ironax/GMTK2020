@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 4568174780786973350}
   - component: {fileID: 4568174780786973354}
   - component: {fileID: 4568174780786973357}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Karen
   m_TagString: Subject
   m_Icon: {fileID: 0}

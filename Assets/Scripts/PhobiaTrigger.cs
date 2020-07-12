@@ -7,6 +7,12 @@ public class PhobiaTrigger : MonoBehaviour
 	[SerializeField]
 	private Phobia phobia = default;
 	private bool hasTriggered = false;
+	private Rigidbody2D rb;
+
+	private void Start()
+	{
+		rb = GetComponent<Rigidbody2D>();
+	}
 
 	private void OnTriggerStay2D(Collider2D other)
 	{

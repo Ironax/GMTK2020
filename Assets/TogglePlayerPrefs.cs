@@ -14,5 +14,4 @@ public class TogglePlayerPrefs : MonoBehaviour
 		toggle = GetComponent<Toggle>();
 		if (PlayerPrefs.HasKey(name)) toggle.isOn = !PlayerPrefs.GetFloat(name).Equals(0.0f);
 	}
-	
 }
