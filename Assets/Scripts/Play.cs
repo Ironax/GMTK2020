@@ -12,8 +12,6 @@ public class Play : MonoBehaviour
         gameObject.GetComponent<Button>().onClick.AddListener(PlayHome);
     }
 
-
-
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +20,6 @@ public class Play : MonoBehaviour
 
     public void PlayHome()
     {
-       
         if (PlayerPrefs.GetInt("Progression") == 0)
         {
             SceneManager.LoadScene("Tuto");

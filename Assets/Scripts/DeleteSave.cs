@@ -19,7 +19,7 @@ public class DeleteSave : MonoBehaviour
 
     public void DeletePlayerPrefs()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("Progression", 0);
     }
 
 }
