@@ -23036,167 +23036,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1051655914245247693, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 4.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1051655914245247693, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1.9600003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4827660838895295324, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 1173665475}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5174451975137472314, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 61b2bb710f7e861449d44eb649a90896,
-        type: 3}
-    - target: {fileID: 5174451975137472314, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5174451975137472314, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5174451975137472314, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5443901333749131926, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 1775730559}
-    - target: {fileID: 5443901333749131928, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1608640922562720857, guid: 424864c3b9c5dcc40b37538f76205a83,
-        type: 3}
-    - target: {fileID: 5443901333749131928, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131928, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131928, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 5443901334286777232, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: m_Name
       value: PhobiaHUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901334286777232, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5443901334286777324, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
@@ -23303,68 +23156,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5443901334286777326, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901334810904503, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 61b2bb710f7e861449d44eb649a90896,
-        type: 3}
-    - target: {fileID: 5443901334810904503, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Type
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5443901335350781396, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 1567965588}
-    - target: {fileID: 5443901335350781398, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1073484433288211532, guid: 04b1b14190f02e645bde8040da5081c7,
-        type: 3}
-    - target: {fileID: 5443901335350781398, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781398, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781398, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6609963828711866439, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab

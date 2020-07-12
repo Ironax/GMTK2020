@@ -34369,6 +34369,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lightning
       objectReference: {fileID: 0}
+    - target: {fileID: 1540255808299747264, guid: cc5d593a1911661439462cdf12106022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3625874428033638272, guid: d042331a12d8c7445a13a4b4e22ed227,
+        type: 3}
     - target: {fileID: 1540255808299747267, guid: cc5d593a1911661439462cdf12106022,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34423,6 +34429,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515526178299190874, guid: cc5d593a1911661439462cdf12106022,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 487e4ccf1b2760c44933bd94e635db9c, type: 2}
+    - target: {fileID: 7515526178299190874, guid: cc5d593a1911661439462cdf12106022,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc5d593a1911661439462cdf12106022, type: 3}
