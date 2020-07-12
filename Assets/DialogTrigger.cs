@@ -6,15 +6,16 @@ using System;
 public class DialogTrigger : MonoBehaviour
 {
 	[SerializeField] protected Dialog dialog;
+	[SerializeField] public DialogBox dialogBox = null;
 
-	protected DialogBox dialogBox;
     // Start is called before the first frame update
     void Awake()
 	{
-		dialogBox = FindObjectOfType<DialogBox>();
+		if(dialogBox == null)
+			dialogBox = FindObjectOfType<DialogBox>();
 	}
 
-	protected void TriggerDialog()
+	public void TriggerDialog()
 	{
 		dialogBox.StartDialog(dialog);
 	}
