@@ -12379,7 +12379,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0acc46a4b986f5d49a7bebfc39fb5f99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 62b4c330bec1ced42829d092e0dd039c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -27899,6 +27899,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 195297742224276010, guid: 077df47dae9028b4287428528d4b4b6b,
+        type: 3}
+      propertyPath: m_Name
+      value: LightningHUD
+      objectReference: {fileID: 0}
     - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: m_RootOrder
@@ -27933,6 +27938,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 1.9600003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802888326363316804, guid: 077df47dae9028b4287428528d4b4b6b,
+        type: 3}
+      propertyPath: m_Name
+      value: ShadowHUD
       objectReference: {fileID: 0}
     - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
@@ -28070,6 +28080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443901333749131930, guid: 077df47dae9028b4287428528d4b4b6b,
+        type: 3}
+      propertyPath: m_Name
+      value: ClownHUD
       objectReference: {fileID: 0}
     - target: {fileID: 5443901334286777232, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
@@ -28248,6 +28263,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5443901335350781400, guid: 077df47dae9028b4287428528d4b4b6b,
+        type: 3}
+      propertyPath: m_Name
+      value: SpiderHUD
+      objectReference: {fileID: 0}
     - target: {fileID: 6609963828711866439, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
@@ -28312,7 +28332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a32ac3d393bec904cbdef1be5d9a6c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toScene: Lvl 1
+  toScene: Lvl 2
 --- !u!212 &1310477590
 SpriteRenderer:
   m_ObjectHideFlags: 0

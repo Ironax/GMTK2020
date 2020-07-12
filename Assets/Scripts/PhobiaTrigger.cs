@@ -21,5 +21,10 @@ public class PhobiaTrigger : MonoBehaviour
 	private void OnTriggerExit2D(Collider2D other)
 	{
 		hasTriggered = false;
+		if(other.tag=="Subject")
+		{
+			gameObject.SetActive(false);
+		}
+		
 	}
 }
