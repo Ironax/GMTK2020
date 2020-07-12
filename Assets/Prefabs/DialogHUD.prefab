@@ -1,5 +1,79 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &551691050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551691051}
+  - component: {fileID: 551691053}
+  - component: {fileID: 551691052}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &551691051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551691050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.84925693, y: 0.84925693, z: 0.84925693}
+  m_Children: []
+  m_Father: {fileID: 6507977345752006891}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 236.3, y: 68.2}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &551691053
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551691050}
+  m_CullTransparentMesh: 0
+--- !u!114 &551691052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551691050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bc485f208a46fec4fa0ed6db412a7e45, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &2222100955511382047
 GameObject:
   m_ObjectHideFlags: 0
@@ -34,8 +108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19.1, y: 22.4}
-  m_SizeDelta: {x: -58.13153, y: -64.668335}
+  m_AnchoredPosition: {x: -19.1, y: 16.54}
+  m_SizeDelta: {x: -58.13153, y: -51.279938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5460929702288244959
 CanvasRenderer:
@@ -58,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9528302, g: 0.8944019, b: 0.8944019, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -66,7 +140,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 58dbca30238110340989d086456db5f8, type: 3}
-    m_FontSize: 32
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -75,7 +149,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: New Text
 --- !u!1 &2652447782785162442
@@ -341,12 +415,13 @@ RectTransform:
   - {fileID: 4063440662502709572}
   - {fileID: 2373218416834209622}
   - {fileID: 2778126040216430517}
+  - {fileID: 551691051}
   m_Father: {fileID: 7801112485654153625}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: -41}
+  m_AnchoredPosition: {x: -34.27, y: -38.8}
   m_SizeDelta: {x: 500, y: 141.78943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1188460101361251053
@@ -370,7 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7960785, g: 0.7960785, b: 0.7960785, a: 0.7529412}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -413,8 +488,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     Sentences:
-    - Hi and welcome to your first day of internship !
-    - Let's see how this Karen react to her phobias :D
+    - "Good morning newcomer ! \r\nI\u2019m glad to see a new employee for helping
+      us in our harvest of Fears. "
+    - "We're a bit short on fears right now so if we don\u2019t get more, a famine
+      will start soon. I wouldn\u2019t like to see my cute little daughter with nothing
+      to eat but happiness and love !"
+    - "Oh, sorry I didn\u2019t want to pressure you. Don\u2019t worry, I\u2019ll
+      explain your work, it\u2019s quite easy :\r\nAs you know, we harvest human\u2019s
+      primordial Fears."
+    - The only problem is that those are located in the deepest spot of nightmares.
+      Just past the red portal here So, we need to force dreamers to reach it, in
+      order to collect those Fears.
+    - Since the dream world is quite unstable, we can influence it by adding scary
+      elements customed to people's phobias.
+    - "Your tools are on the bottom of your control screen  : we put the phobias
+      in their path to make them lose their calm and influence their movements. \n"
+    - Each dreamer reacts differently depending on the phobia they collide with,
+      so go ahead and test it all !
+    - ' One last thing. The white cracks are breaches in the world. If the dreamer
+      goes through, we need to start over the nightmare, so be careful.'
 --- !u!1 &5619854630373702507
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -186.4, y: -115.3}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1644804247506438006
