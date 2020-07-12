@@ -38971,7 +38971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPos: {x: -13.98, y: -2.52, z: 0}
-  endPos: {x: -13.98, y: 0.48, z: 0}
+  endPos: {x: -13.98, y: 0.52, z: 0}
   speed: 2
   direction: 1
   delayOnEdges: 0.5
@@ -39984,7 +39984,12 @@ PrefabInstance:
     - target: {fileID: 4568174780786973353, guid: 8dc5811b9977a714d83ca11ce7b43734,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.8
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4568174780786973353, guid: 8dc5811b9977a714d83ca11ce7b43734,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.8125
       objectReference: {fileID: 0}
     - target: {fileID: 4568174780786973354, guid: 8dc5811b9977a714d83ca11ce7b43734,
         type: 3}
@@ -40049,7 +40054,7 @@ PrefabInstance:
     - target: {fileID: 4568174780786973355, guid: 8dc5811b9977a714d83ca11ce7b43734,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.04
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 4568174780786973355, guid: 8dc5811b9977a714d83ca11ce7b43734,
         type: 3}
