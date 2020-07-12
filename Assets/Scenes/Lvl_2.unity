@@ -33605,101 +33605,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 223067429635801274, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 340738361753784280, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 2113865682834575040}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2464082330886594955, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4827660838895295324, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 558663058}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5155428455851668561, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5443901333749131926, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 1775730559}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901333749131929, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5443901334286777232, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: m_Name
@@ -33815,26 +33735,6 @@ PrefabInstance:
       propertyPath: phobiaPrefab
       value: 
       objectReference: {fileID: 1567965588}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443901335350781399, guid: 077df47dae9028b4287428528d4b4b6b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6609963828711866439, guid: 077df47dae9028b4287428528d4b4b6b,
         type: 3}
       propertyPath: phobiaPrefab
