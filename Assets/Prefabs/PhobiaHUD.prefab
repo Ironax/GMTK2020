@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2954718073311147299}
   - component: {fileID: 6609963828711866439}
   m_Layer: 5
-  m_Name: Lightning
+  m_Name: LightningHUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 4927842568940700683}
   - component: {fileID: 340738361753784280}
   m_Layer: 5
-  m_Name: Shadow HUD
+  m_Name: ShadowHUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 8074177775707111491}
   - component: {fileID: 4827660838895295324}
   m_Layer: 5
-  m_Name: Snake HUD
+  m_Name: SnakeHUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 5443901333749131928}
   - component: {fileID: 5443901333749131926}
   m_Layer: 5
-  m_Name: Clown HUD
+  m_Name: ClownHUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 5443901335350781398}
   - component: {fileID: 5443901335350781396}
   m_Layer: 5
-  m_Name: Spider HUD
+  m_Name: SpiderHUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
