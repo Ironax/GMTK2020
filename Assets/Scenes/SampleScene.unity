@@ -1278,10 +1278,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1249439015374966141, guid: 3d1a5a4deba65ff46b8eea9410cd66b9,
+        type: 3}
+      propertyPath: m_Text
+      value: Coucou
+      objectReference: {fileID: 0}
     - target: {fileID: 4875064208206328482, guid: 3d1a5a4deba65ff46b8eea9410cd66b9,
         type: 3}
       propertyPath: m_Name
       value: DialogHUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507977345752006891, guid: 3d1a5a4deba65ff46b8eea9410cd66b9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 15.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507977345752006891, guid: 3d1a5a4deba65ff46b8eea9410cd66b9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10.6
       objectReference: {fileID: 0}
     - target: {fileID: 7801112485654153625, guid: 3d1a5a4deba65ff46b8eea9410cd66b9,
         type: 3}

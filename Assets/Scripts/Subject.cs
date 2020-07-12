@@ -6,6 +6,7 @@ using UnityEditor;
 
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public enum Phobia
 {
@@ -72,9 +73,19 @@ public class Subject : MonoBehaviour
 
 	private Rigidbody2D rb = null;
 	private float currentReactionTimer = 0f;
+	string sceneName;
+	int lvl;
 
     void Start()
 	{
+		sceneName =SceneManager.GetActiveScene().name;
+		lvl = (int)char.GetNumericValue(sceneName[4]);
+		Debug.Log("lvlnumber = " + lvl);
+		if(lvl>PlayerPrefs.GetInt("Progression"))
+		{
+			PlayerPrefs.SetInt("Progression", lvl);
+		}
+
 		rb = GetComponent<Rigidbody2D>();
 		subjectAudio = gameObject.GetComponent<AudioSource>();
 	}
