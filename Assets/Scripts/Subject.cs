@@ -79,12 +79,16 @@ public class Subject : MonoBehaviour
     void Start()
 	{
 		sceneName =SceneManager.GetActiveScene().name;
-		lvl = (int)char.GetNumericValue(sceneName[4]);
-		Debug.Log("lvlnumber = " + lvl);
-		if(lvl>PlayerPrefs.GetInt("Progression"))
+		if(sceneName != "Tuto")
 		{
-			PlayerPrefs.SetInt("Progression", lvl);
+			lvl = (int)char.GetNumericValue(sceneName[4]);
+			Debug.Log("lvlnumber = " + lvl);
+			if (lvl > PlayerPrefs.GetInt("Progression"))
+			{
+				PlayerPrefs.SetInt("Progression", lvl);
+			}
 		}
+
 
 		rb = GetComponent<Rigidbody2D>();
 		subjectAudio = gameObject.GetComponent<AudioSource>();
