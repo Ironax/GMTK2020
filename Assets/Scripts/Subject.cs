@@ -78,6 +78,7 @@ public class Subject : MonoBehaviour
 
     void Start()
 	{
+		Time.timeScale = 1f;
 		sceneName =SceneManager.GetActiveScene().name;
 		if(sceneName != "Tuto")
 		{
